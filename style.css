@@ -202,11 +202,8 @@ span {
     display: flex;
     align-content: center;
     justify-content: center;
-    flex-flow: wrap;
-    
+    flex-flow: wrap;  
 }
-
-
 
 .strategia-box {
     background-image: linear-gradient(to top, rgba(0, 130, 195, 1), rgba(0, 130, 195, 0.6));
@@ -273,4 +270,11 @@ footer a {
 
 footer a:hover {
     color: RGB(0, 130, 195);
+}
+
+@media screen and (max-width:700px) {
+    .ja
+    {
+    display: none;
+   }
 }
